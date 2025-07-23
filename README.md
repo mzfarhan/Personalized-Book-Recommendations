@@ -17,22 +17,21 @@ It consists of three main CSV files:
 ## Repository Structure
 Personalized-Book-Recommendations
 
-├── data/
-
-│   ├── raw/
+├── data
+│   ├── raw
 │   │   ├── Books.csv                # Raw dataset files (to be downloaded by user)
 │   │   ├── Ratings.csv
 │   │   └── Users.csv
-│   └── processed/
+│   └── processed
 │       ├── preprocessed_Books.csv   # Cleaned and preprocessed Books data
 │       ├── preprocessed_Ratings.csv # Cleaned and preprocessed Ratings data
 │       └── preprocessed_Users.csv   # Cleaned and preprocessed Users data
-├── notebooks/
+├── notebooks
 │   └── book_data_preparation.ipynb  # Jupyter Notebook for all data preprocessing steps
-├── dashboards/
+├── dashboards
 │   └── book recommendation data analysis.pbix
 │   └── book recommendation data analysis.pdf
-├── sql/
+├── sql
 │   └── query_data_books_join.sql    # The SQL query used to join preprocessed data for dashboard visualization
 ├── requirements.txt         # List of all Python dependencies
 ├── README.md                # Project overview, setup instructions, and results
