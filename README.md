@@ -55,10 +55,10 @@ Since the raw dataset files are too large for GitHub, you need to download them 
 ### 3. Install Dependencies
 It is highly recommended to use a virtual environment to manage project dependencies:
 
-```bash```
-python -m venv venv
-source venv/bin/activate  # On Windows: `venv\Scripts\activate`
-pip install -r requirements.txt
+bash
+```python -m venv venv```
+```source venv/bin/activate  # On Windows: `venv\Scripts\activate```
+```pip install -r requirements.txt```
 
 ### 4. Run Data Preprocessing
 Open the `notebooks/book_data_preparation.ipynb` Jupyter Notebook and run all cells. This process will:
