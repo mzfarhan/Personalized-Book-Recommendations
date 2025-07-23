@@ -41,9 +41,9 @@ Personalized-Book-Recommendations
 
 ### 1. Clone the Repository
 Start by cloning this GitHub repository to your local machine:
-```bash```
-git clone [https://github.com/mzfarhan/Personalized-Book-Recommendations.git](https://github.com/mzfarhan/Personalized-Book-Recommendations.git)
-cd Personalized-Book-Recommendations
+bash
+`git clone [https://github.com/mzfarhan/Personalized-Book-Recommendations.git](https://github.com/mzfarhan/Personalized-Book-Recommendations.git)
+cd Personalized-Book-Recommendations`
 
 ### 2. Download and Place Raw Data
 Since the raw dataset files are too large for GitHub, you need to download them manually:
@@ -56,9 +56,9 @@ Since the raw dataset files are too large for GitHub, you need to download them 
 It is highly recommended to use a virtual environment to manage project dependencies:
 
 bash
-```python -m venv venv```
-```source venv/bin/activate  # On Windows: `venv\Scripts\activate```
-```pip install -r requirements.txt```
+`python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt`
 
 ### 4. Run Data Preprocessing
 Open the `notebooks/book_data_preparation.ipynb` Jupyter Notebook and run all cells. This process will:
