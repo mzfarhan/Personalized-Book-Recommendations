@@ -15,7 +15,7 @@ It consists of three main CSV files:
 **Note:** The raw data files are too large to be directly uploaded to this repository. Please download them from the Kaggle link provided above and place them in the `data/raw/` directory after cloning the repository.
 
 ## Repository Structure
-Personalized-Book-Recommendations/
+Personalized-Book-Recommendations
 ├── data/
 │   ├── raw/
 │   │   ├── Books.csv                # Raw dataset files (to be downloaded by user)
