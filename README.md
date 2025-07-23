@@ -18,24 +18,24 @@ It consists of three main CSV files:
 Personalized-Book-Recommendations
 
 ├── data
-│   ├── raw
-│   │   ├── Books.csv                # Raw dataset files (to be downloaded by user)
-│   │   ├── Ratings.csv
-│   │   └── Users.csv
-│   └── processed
-│       ├── preprocessed_Books.csv   # Cleaned and preprocessed Books data
-│       ├── preprocessed_Ratings.csv # Cleaned and preprocessed Ratings data
-│       └── preprocessed_Users.csv   # Cleaned and preprocessed Users data
+│ ├── raw
+│ │ ├── Books.csv # Raw dataset files (to be downloaded by user)
+│ │ ├── Ratings.csv
+│ │ └── Users.csv
+│ └── processed
+│ ├── preprocessed_Books.csv # Cleaned and preprocessed Books data
+│ ├── preprocessed_Ratings.csv # Cleaned and preprocessed Ratings data
+│ └── preprocessed_Users.csv # Cleaned and preprocessed Users data
 ├── notebooks
-│   └── book_data_preparation.ipynb  # Jupyter Notebook for all data preprocessing steps
+│ └── book_data_preparation.ipynb # Jupyter Notebook for all data preprocessing steps
 ├── dashboards
-│   └── book recommendation data analysis.pbix
-│   └── book recommendation data analysis.pdf
+│ └── book recommendation data analysis.pbix
+│ └── book recommendation data analysis.pdf
 ├── sql
-│   └── query_data_books_join.sql    # The SQL query used to join preprocessed data for dashboard visualization
-├── requirements.txt         # List of all Python dependencies
-├── README.md                # Project overview, setup instructions, and results
-└── .gitignore               # Files/directories to ignore in Git
+│ └── query_data_books_join.sql # The SQL query used to join preprocessed data for dashboard visualization
+├── requirements.txt # List of all Python dependencies
+├── README.md # Project overview, setup instructions, and results
+└── .gitignore # Files/directories to ignore in Git
 
 ## Setup Instructions
 
