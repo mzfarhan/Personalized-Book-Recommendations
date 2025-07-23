@@ -15,35 +15,34 @@ It consists of three main CSV files:
 **Note:** The raw data files are too large to be directly uploaded to this repository. Please download them from the Kaggle link provided above and place them in the `data/raw/` directory after cloning the repository.
 
 ## Repository Structure
-Personalized-Book-Recommendations
-
-├── data
-│ ├── raw
-│ │ ├── Books.csv # Raw dataset files (to be downloaded by user)
-│ │ ├── Ratings.csv
-│ │ └── Users.csv
-│ └── processed
-│ ├── preprocessed_Books.csv # Cleaned and preprocessed Books data
-│ ├── preprocessed_Ratings.csv # Cleaned and preprocessed Ratings data
-│ └── preprocessed_Users.csv # Cleaned and preprocessed Users data
-├── notebooks
-│ └── book_data_preparation.ipynb # Jupyter Notebook for all data preprocessing steps
-├── dashboards
-│ └── book recommendation data analysis.pbix
-│ └── book recommendation data analysis.pdf
-├── sql
-│ └── query_data_books_join.sql # The SQL query used to join preprocessed data for dashboard visualization
-├── requirements.txt # List of all Python dependencies
-├── README.md # Project overview, setup instructions, and results
-└── .gitignore # Files/directories to ignore in Git
+Personalized-Book-Recommendations<br>
+├── data<br>
+│   ├── raw<br>
+│   │   ├── Books.csv # Raw dataset files (to be downloaded by user)<br>
+│   │   ├── Ratings.csv<br>
+│   │   └── Users.csv<br>
+│   └── processed<br>
+│       ├── preprocessed_Books.csv # Cleaned and preprocessed Books data<br>
+│       ├── preprocessed_Ratings.csv # Cleaned and preprocessed Ratings data<br>
+│       └── preprocessed_Users.csv # Cleaned and preprocessed Users data<br>
+├── notebooks<br>
+│   └── book_data_preparation.ipynb # Jupyter Notebook for all data preprocessing steps<br>
+├── dashboards<br>
+│   └── book recommendation data analysis.pbix<br>
+│   └── book recommendation data analysis.pdf<br>
+├── sql<br>
+│   └── query_data_books_join.sql # The SQL query used to join preprocessed data for dashboard visualization<br>
+├── requirements.txt # List of all Python dependencies<br>
+├── README.md # Project overview, setup instructions, and results<br>
+└── .gitignore # Files/directories to ignore in Git<br>
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
-Start by cloning this GitHub repository to your local machine:
-bash
-`git clone [https://github.com/mzfarhan/Personalized-Book-Recommendations.git](https://github.com/mzfarhan/Personalized-Book-Recommendations.git)
-cd Personalized-Book-Recommendations`
+Start by cloning this GitHub repository to your local machine:<br>
+bash<br>
+<pre>git clone [https://github.com/mzfarhan/Personalized-Book-Recommendations.git](https://github.com/mzfarhan/Personalized-Book-Recommendations.git)
+cd Personalized-Book-Recommendations</pre>
 
 ### 2. Download and Place Raw Data
 Since the raw dataset files are too large for GitHub, you need to download them manually:
@@ -55,10 +54,10 @@ Since the raw dataset files are too large for GitHub, you need to download them 
 ### 3. Install Dependencies
 It is highly recommended to use a virtual environment to manage project dependencies:
 
-bash
-`python -m venv venv
+bash<br>
+<pre>python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt`
+pip install -r requirements.txt</pre> 
 
 ### 4. Run Data Preprocessing
 Open the `notebooks/book_data_preparation.ipynb` Jupyter Notebook and run all cells. This process will:
