@@ -16,6 +16,7 @@ It consists of three main CSV files:
 
 ## Repository Structure
 Personalized-Book-Recommendations
+
 ├── data/
 │   ├── raw/
 │   │   ├── Books.csv                # Raw dataset files (to be downloaded by user)
