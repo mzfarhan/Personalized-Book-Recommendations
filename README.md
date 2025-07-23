@@ -18,6 +18,7 @@ It consists of three main CSV files:
 Personalized-Book-Recommendations
 
 ├── data/
+
 │   ├── raw/
 │   │   ├── Books.csv                # Raw dataset files (to be downloaded by user)
 │   │   ├── Ratings.csv
