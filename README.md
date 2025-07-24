@@ -34,7 +34,7 @@ Personalized-Book-Recommendations<br>
 │   └── query_data_books_join.sql # The SQL query used to join preprocessed data for dashboard visualization<br>
 ├── requirements.txt # List of all Python dependencies<br>
 ├── README.md # Project overview, setup instructions, and results<br>
-└── .gitignore # Files/directories to ignore in Git<br>
+└── LICENSE # MIT License<br>
 
 ## Setup Instructions
 
